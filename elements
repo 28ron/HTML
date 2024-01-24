@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formatting</title>
+  </head>
+  <body>
+    <!--B element-->
+    <b>This is a bold statement</b>
+    <br />
+    <!--Strong element-->
+    <strong>This is a strong element--</strong>
+    <br />
+    <!--I element-->
+    <i>This is italic</i>
+    <br />
+    <!--em element-->
+    <em>Emphasis</em>
+    <br />
+    <!--Marked text-->
+    <mark>Marked</mark><br />
+    <!--small element-->
+    <small>This is a small text</small>
+    <br />
+    <!--Del element-->
+    <del>Deleted element</del>
+    <br/>
+    <!--ins element-->
+    <ins>Inserted element</ins>
+    <br />
+    <!--Sub and Sup elements-->
+    <p>The chemical symbol of water is H<sub>2</sub>0</p>
+    <br />
+    <p>Today is 24<sup>th</sup>January</p>
+  </body>
+  <br />
+  <!--kbd element-->
+  <p>To copy a text use <kbd>Ctrl + C</kbd></p>
+  <br/>
+  <!--code element-->
+  <pre>
+  <code>
+     x = 5;
+     y = 3;
+     z=y+x;
+  </code>
+  </pre>
+</html>
