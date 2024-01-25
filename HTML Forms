@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <form>
+        <!--text input-->
+        <label>Username:</label>
+        <input type="text" required/><br />
+
+        <!--email input-->
+        <label>Email</label>
+        <input type="text" required placeholder="Enter your email"/><br />
+
+        <!--number button-->
+        <label>Age:</label>
+        <input type="number" min="13" max="19"/><br />
+
+        <!--password input-->
+        <label>Password:</label>
+        <input type="password"/> <br />
+
+        <!--color input-->
+        <label>Color:</label>
+        <input type="color"/> <br/>
+
+        <!--date input-->
+        <label>DOB:</label>
+        <input type="date"/><br />
+
+        <!--file input-->
+        <label>Input CV:</label>
+        <input type="file"/><br />
+
+        <!--time input-->
+        <label>Arrival time:</label>
+        <input type="time"/><br/>
+
+        <!--range input-->
+        <label>range:</label>
+        <input type="range"/><br/>
+         
+        <!--Radio Button-->
+        <p>Select your gender</p>
+        <label>Male</label>
+        <input type="radio"/ value="Male" name="gender">
+         
+        <label>Female</label>
+        <input type="radio" value="Female" name="gender"/><br />
+
+        <!--submit button-->
+        </label>
+        <input type="submit" value="Sign up" /><br />
+        
+    </form>
+</body>
+</html>
