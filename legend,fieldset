@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>personal information</legend>
+            <input type="Name"><br/>
+ <!--select element-->
+        <label>Email:</label>
+        <input type="Email"><br/> 
+        </fieldset>
+        <label>Name:</label>
+        <fieldset>
+            <label for="favorite language">choose your favorite language</label>
+            <select id="language">
+                <option value="css">CSS</option>
+                <option value="html">HTML</option>
+                <option value="javascript" selected>Javascript</option>
+            </select>
+            <br/>
+            <!--text area-->
+            <label>additional information</label>
+            <textarea placeholder="Add some additional info"
+            rows="10"
+            cols="10"></textarea><br /><br/>
+        </fieldset>
+        <!--datalist elements-->
+        <datalist>
+            <option value="John Doe"></option>
+        </datalist>
+       
+       
+
+<button>Sign up</button>
+    </form>
+    
+</body>
+</html>
