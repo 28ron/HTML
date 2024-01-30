@@ -1,0 +1,4 @@
+selector {
+    property : value; //declaration 1
+    property : value; //declaration 2
+}
