@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML MEDIA</title>
+</head>
+<body>
+    <figure>
+        <!--Video element-->
+        <video width="320" height="240" muted autoplay controls>
+            <source src="./10 - Media/WhatsApp Video 2024-01-31 at 19.56.29_d373e60f.mp4" type="video/mp4">
+            <!--<track src="url" srclng="en" kind="subtitles" label="Eng">-->
+            Your browser does not support this video.
+        </video>
+        <figcaption>
+            Short video
+        </figcaption>
+    </figure>
+    <!--Audio element-->
+    <audio controls muted autoplay >
+        <source src="./10 - Media/WhatsApp Audio 2024-02-01 at 15.47.19_8eb55f8f.mp3"/>
+        Your browser does not support the audio
+    </audio>
+    <!--iframe element-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/B5-CjIrpyMw?si=jMR-L8SRw-NzyzXR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.619654291047!2d36.9218479!3d-1.2260310499999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1576d1dd4001%3A0xded377382eced54c!2sSt.%20Francis!5e0!3m2!1sen!2ske!4v1706792925132!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</body>
+</html>
