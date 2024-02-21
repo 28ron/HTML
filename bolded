@@ -1,0 +1,27 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Browser</title>
+</head>
+  <p><u>WEB TECHNOLOGIES
+    </u><br>
+    Web Technologies refer to the software,protocols,programming language,frameworks and tools used to develop,design and operate websites and web applications.<br>
+    <p><strong>Hypertext Markup Language(HTML)</strong></p>The standard markup language used to create web pages and structure content on the internet.
+    <p><strong>Cascading Style Sheets(CSS)
+      A style sheet language used for describing the presentation of HTML or XML documents, including layouts,colors and fonts.
+  </p>
+<body>
+  <h1>
+    Write, edit and run HTML, CSS and JavaScript code online.
+  </h1>
+  <p>
+    Our HTML editor updates the webview automatically in real-time as you write code.
+  </p>
+</body>
