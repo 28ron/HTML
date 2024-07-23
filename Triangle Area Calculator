@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Triangle Area Calculator</title>
+</head>
+<body>
+    <script>
+        // Function to compute the area of a triangle
+        function computeTriangleArea(base, height) {
+            return 0.5 * base * height;
+        }
+        
+        // Base and height of the triangle
+        var base = 400;
+        var height = 100;
+        
+        // Compute the area
+        var area = computeTriangleArea(base, height);
+        
+        // Display the result in the browser
+        document.write("The area of the triangle is: " + area);
+    </script>
+</body>
+</html>
